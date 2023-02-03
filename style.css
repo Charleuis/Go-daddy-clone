@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'M PLUS 1', sans-serif;
+    box-sizing: border-box;
+}
+nav.navbar{
+    height: 85px;
+    background-color: #dae1da;
+}
+.p-3{
+    background-color: #fde9db;
+    height: 530px;
+    width: 100%;
+
+}
+.h1, h1 {
+    font-size: 2.5rem;
+    padding-top: 100px;
+}
+.nav-2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-right: 40px;
+    gap: 22px;
+    padding-top: 11px;
+}
+.d-flex{
+    padding: 10px;
+    /* height: 11.5vh; */
+}
+.p-3 .form-control{
+    border: 2px solid #3881cd;
+     /* width: 1200px;  */
+    border-radius: 0;
+    justify-self: center;
+
+}
+.p-3 .btn{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem ;
+    border-radius: 0;
+}
+.p-3 .btn:hover{
+    background-color: #83aedcf7;
+    transform: scale(1.1,1.1);
+}
+.p-3 p{
+    font-size: 12px;
+}
+.mt-5{
+   height: 500px;
+}
+.image-3 {
+    display: flex;
+    position: relative;
+  }
+  .image-3 img{
+    flex-grow: 0
+  }
+.text-block {
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    color: black;
+    flex-shrink: 1;
+  }
+ /* section{
+    width: 100%;
+    height: calc(60vh);
+    background-image:url(/Godady/photos/3rd\ pic.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+section .ms-auto{
+    text-align: left;
+    padding: 102px;
+    overflow: none;
+}
+section .ms-auto h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.need-help{
+    background-color: rgb(245, 247, 248);
+    padding: 60px;
+}
+ul li img{
+    height: 50px;
+    margin-left: 30px;
+}
+.down-lists{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    background:rgb(43, 43, 43);
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.container .care-arrow{
+    width: 120px;
+}
+.col-2 ul li{
+    font-size: 12px;
+    list-style: none;
+    width: 100%;
+    margin-left: -20px;
+    padding: 5px;
+}
+.col-2 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.accordian img{
+    height: 50px;
+    margin-left: 100px;
+    padding-top: 15px;
+}
+.social i{
+    padding: 12px;
+    position: relative;
+    left: 800px;
+    
+}
+
